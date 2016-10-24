@@ -1,2 +1,3 @@
+# Add format parameter file 
 # Add Comment in new branch
-curl -H "Content-Type:application/xml" -X POST -d @xml_file_name.xml "https://localhost/api"
+curl curl -k -w @/usr/local/bin/curl_format.txt -H "Content-Type:application/xml" -X POST -d @xml_file_name.xml "https://localhost/api"
